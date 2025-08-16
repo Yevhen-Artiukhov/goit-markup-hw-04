@@ -377,6 +377,7 @@ opacity: 1;
     gap: 24px;
     padding: 0;
     margin: 8px 0 32px;
+    justify-content: center;
 }
 
 .social-link {
@@ -388,7 +389,7 @@ opacity: 1;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -400,6 +401,10 @@ opacity: 1;
     fill: #fff;
     width: 16px;
     height: 16px;
+}
+
+.icon-svg {
+    fill: #f4f4fd;
 }
 
 /*section-four*/
@@ -451,6 +456,7 @@ opacity: 1;
     width: 360px;
     background-color: #fff;
     box-sizing: border-box;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-four-name {
@@ -485,7 +491,7 @@ opacity: 1;
     height: 100%;
     background-color: #4d5ae5;
     color: #f4f4fd;
-    padding: 40px 32px 164px 32px;
+    padding: 40px 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -495,7 +501,8 @@ opacity: 1;
 }
 
 .portfolio-card:hover .portfolio-overlay {
-    transform: translateY(0);
+    transform: translateY(0%);
+    box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /*footer*/
@@ -526,6 +533,7 @@ opacity: 1;
     width: 264px;
     height: 72px;
     margin: 0;
+    margin-bottom: 16px;
 }
 
 .social-link-footer:hover, 
@@ -549,6 +557,7 @@ opacity: 1;
     fill: #fff;
     width: 24px;
     height: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-text-media {
@@ -564,12 +573,26 @@ font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: flex-start;
     gap: 120px;
+    align-items: baseline
 }
 
 .footer-media > .container {
     padding-left: 0;
 }
 
+.footer-one {
+    margin-right: 120px;
+}
+
+.social-list {
+    gap: 16px;
+}
+
+.icon-footer {
+    width: 24px;
+    height: 24px;
+    fill: #f4f4fd;
+}
 
 
 
