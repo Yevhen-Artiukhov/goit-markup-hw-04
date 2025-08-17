@@ -400,11 +400,6 @@ opacity: 1;
     background-color: #404bbf;
 }
 
-.social-link {
-    width: 16px;
-    height: 16px;
-}
-
 .social-link-picture {
     fill: var(--section-three-icon-color);
 }
