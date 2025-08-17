@@ -289,7 +289,7 @@ opacity: 1;
 
 /*section-three*/
 :root {
-    --team-icon-color: #f4f4fd;
+    --section-three-icon-color: #f4f4fd;
 }
 
 .section-three {
@@ -407,7 +407,7 @@ opacity: 1;
 }
 
 .team-icon-color {
-    fill: var(--team-icon-color);
+    fill: var(--section-three-icon-color);
 }
 
 /*section-four*/
