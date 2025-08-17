@@ -521,6 +521,7 @@ opacity: 1;
     --footer-text: #f4f4fd;
     --footer-accent: #4d5ae5;
     --footer-hover: #31d0aa;
+    --footer-icon-color: #f4f4fd;
 }
 
 .page-footer {
@@ -603,7 +604,7 @@ opacity: 1;
 .icon-footer {
     width: 24px;
     height: 24px;
-    fill: var(--footer-text);
+    fill: var(--footer-icon-color);
     transition: fill 250ms ease;
 }
 
@@ -637,6 +638,7 @@ opacity: 1;
 svg {
     width: 24;
     height: 24;
+    fill: var(f4f4fd);
 }
 
 .footer-text-media {
