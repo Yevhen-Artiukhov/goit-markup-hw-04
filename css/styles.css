@@ -288,6 +288,9 @@ opacity: 1;
 
 
 /*section-three*/
+:root {
+    --team-icon-color: #f4f4fd;
+}
 
 .section-three {
     background-color: #f4f4fd;
@@ -360,7 +363,6 @@ opacity: 1;
     margin-bottom: 8px;
 }
 
-
 .section-three-text {
     font-weight: 400;
     font-size: 16px;
@@ -374,15 +376,12 @@ opacity: 1;
 .social-list {
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
     padding: 0;
     margin: 8px 0 32px;
-    justify-content: center;
-    gap: 24px;
 }
-
-.social-list-nav {
-    
-    }
 
 .social-link {
     width: 40px;
@@ -407,8 +406,8 @@ opacity: 1;
     height: 16px;
 }
 
-.icon-svg {
-    fill: var(#f4f4fd);
+.team-icon-color {
+    fill: var(--team-icon-color);
 }
 
 /*section-four*/
@@ -573,7 +572,7 @@ opacity: 1;
     margin-right: 120px;
 }
 
-.social-list {
+.social-list-footer {
     display: flex;
     gap: 16px;
     padding: 0;
@@ -604,7 +603,7 @@ opacity: 1;
 .icon-footer {
     width: 24px;
     height: 24px;
-    fill: var(#f4f4fd);
+    fill: var(--footer-icon-color);
     transition: fill 250ms ease;
 }
 
@@ -615,60 +614,6 @@ opacity: 1;
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.social-link-footer {
-    width: 40px;
-    height: 40px;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
-
-.social-link-footer svg {
-    fill: #fff;
-    width: 24px;
-    height: 24px;
-    
-}
-
-svg {
-    width: 24;
-    height: 24;
-    fill: var(f4f4fd);
-}
-
-.footer-text-media {
-font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
-}
-
-.footer-media {
-    display: flex;
-    justify-content: flex-start;
-    gap: 120px;
-    align-items: baseline;
-}
-
-.footer-media > .container {
-    padding-left: 0;
-}
-
-.footer-one {
-    margin-right: 120px;
-}
-
-.social-list {
-    gap: 16px;
-}
 
 
 
