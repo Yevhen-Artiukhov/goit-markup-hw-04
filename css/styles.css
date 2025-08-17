@@ -401,14 +401,11 @@ opacity: 1;
 }
 
 .social-link svg {
-    fill: #fff;
     width: 16px;
     height: 16px;
-}
-
-.team-icon-color {
     fill: var(--section-three-icon-color);
 }
+
 
 /*section-four*/
 
