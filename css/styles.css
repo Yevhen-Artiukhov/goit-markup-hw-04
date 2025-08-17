@@ -192,7 +192,7 @@ opacity: 1;
     min-width: 169px;
     height: 56px;
     margin: 0 auto;
-    margin-top: 56px;
+    margin-top: 48px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -266,11 +266,7 @@ opacity: 1;
 }
 
 .foundation-item {
-    width: 264px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    width: calc((100% - (24px * 3)) / 4);
 }
 
 .icon-box {
@@ -296,28 +292,13 @@ opacity: 1;
     background-color: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.container-three {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
+
 
 .section-three-ava {
     background-color: #fff;
-    width: 264px;
-    height: 428px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
+    width: calc((100% - (24px * 3)) / 4);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -326,9 +307,6 @@ opacity: 1;
 }
 
 .member-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 32px 0;
 }
 
@@ -344,9 +322,6 @@ opacity: 1;
 }
 
 .team-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     gap: 24px;
     justify-content: center;
@@ -380,7 +355,7 @@ opacity: 1;
     align-items: center;
     gap: 24px;
     padding: 0;
-    margin: 8px 0 32px;
+    margin: 8px 0 0;
 }
 
 .social-link {
@@ -443,16 +418,12 @@ opacity: 1;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
     justify-content: center;
 }
 
 .portfolio-card {
-    width: 360px;
+    width: calc((100% - (24px * 2)) / 3);
     background-color: #fff;
-    box-sizing: border-box;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -559,7 +530,6 @@ opacity: 1;
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    gap: 120px;
 }
 
 .footer-one {
