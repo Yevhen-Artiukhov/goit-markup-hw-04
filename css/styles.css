@@ -604,7 +604,7 @@ opacity: 1;
 .icon-footer {
     width: 24px;
     height: 24px;
-    fill: var(--footer-icon-color);
+    fill: var(#f4f4fd);
     transition: fill 250ms ease;
 }
 
@@ -670,18 +670,7 @@ font-family: "Roboto", sans-serif;
     gap: 16px;
 }
 
-.icon-footer {
-    width: 24px;
-    height: 24px;
-    fill: var(#f4f4fd);
-}
 
-:root {
-    --icon-color: #f4f4fd;
-
-    --icon-hover: #31d0aa;
-    
-}
 
 
 
